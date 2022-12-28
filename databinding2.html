@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="databinding2.js"></script>
+</head>
+<body ng-app="bind">
+    <div ng-controller="twoway">
+        <h2>enter name <input ng-model="msg"></h2>
+        <h3>{{msg}}</h3>
+    </div>
+</body>
+</html>
